@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 import NavBar from "../components/NavBar";
@@ -22,7 +23,7 @@ const Home: NextPage = () => {
     Criando experiências na Web usando tecnologias modernas de Frontend e Backend
     </h1>
     <p className="my-4">Desenvolvedor Full Stack na Primata e contribuidor de projetos open-source como o Gnome</p>
-    <p className="my-4">Para entrar em contato use o email: <a href="mailto:ryannnkl@gmail.com" className="link">ryannnkl@gmail.com</a> ou entre em contato pelo instagram: <a tagert="_blank" href="https://instagram.com/ryann_ferreira_" className="link">ryann_ferreira_</a></p>
+    <p className="my-4">Para entrar em contato use o email: <Link href="mailto:ryannnkl@gmail.com" passHref><a className="link">ryannnkl@gmail.com</a></Link> ou entre em contato pelo instagram: <Link href="https://instagram.com/ryann_ferreira_"><a target="_blank" className="link">ryann_ferreira_</a></Link> </p>
     </div>
     </section>
     </main>
