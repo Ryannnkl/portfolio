@@ -21,8 +21,14 @@ a {
   box-sizing: border-box;
 }
 
-.link {
-  color: #2a9d8f;
+*::selection {
+  color: #222;
+  background: #059669;
+}
+
+*::-moz-selection {
+  color: #222;
+  background: #059669;
 }
 
 .lead {
