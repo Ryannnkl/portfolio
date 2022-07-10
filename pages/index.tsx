@@ -10,9 +10,20 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Ryann ferreira</title>
+        <title>Ryann Ferreira</title>
         <meta name="description" content="Ryann Ferreira da Silva, portfolio" />
-        <meta name="keywords" content="Ryann,Ferreira,portfolio"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@RyannFerreira_"/>
+        <meta name="twitter:creator" content="@RyannFerreira_"/>
+        <meta property="og:title" content="Ryann Ferreira"/>
+        <meta property="og:description" content="Desenvolvedor Full Stack Javascript"/>
+        <meta property="og:url" content="https://ryann-ferreira.vercel.app/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:site_name" content="Ryann Ferreira"/>
+        <meta name="application-name" content="Ryann Ferreira"/>
+        <meta name="msapplication-TileColor" content="#171717"/>
+        <meta name="theme-color" content="#171717" />
+        <link rel="canonical" href="https://ryann-ferreira.vercel.app/"/>
         <link rel="icon" href="/box.svg" />
       </Head>
       <section className="space-y-8">
